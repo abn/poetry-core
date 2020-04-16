@@ -108,5 +108,5 @@ pathlib2 = "https://raw.githubusercontent.com/mcmtroffaes/pathlib2/develop/LICEN
 pyrsistent = "https://raw.githubusercontent.com/tobgu/pyrsistent/master/LICENCE.mit"
 
 [build-system]
-requires = ["intreehooks"]
+requires = ["intreehooks", "setuptools", "typing==3.7.4.1;python_version~='2.7'"]
 build-backend = "intreehooks:loader"
